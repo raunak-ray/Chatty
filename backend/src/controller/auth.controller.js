@@ -39,7 +39,7 @@ export const signupController = asyncHandler(async (req, res) => {
 
   generateToken(newUser._id, res);
 
-  await sendWelcomeEmail(
+  sendWelcomeEmail(
     newUser.email,
     newUser.fullName,
     process.env.CLIENT_URL,
