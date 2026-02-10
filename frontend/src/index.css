@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.iconPosition {
+  @apply absolute left-2 top-3;
+}
+
+.inputStyle {
+  @apply w-full bg-slate-600/50 border border-slate-600/50 outline-0 rounded-md focus:ring-2 p-2 px-8 focus:ring-white transition-all duration-200;
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+  }
+  
+  /* keyframes */
+  @keyframes border {
+    to {
+      --border-angle: 360deg;
+    }
+  }
+  
+  /* register utility */
+  @utility animate-border {
+    animation: border 4s linear infinite;
+  }
