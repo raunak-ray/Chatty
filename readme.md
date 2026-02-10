@@ -8,7 +8,7 @@ https://chatty-832r.onrender.com
 
 ## Demo
 
-<video src="demo/demoVideo.mp4" autoplay muted loop playsinline width="800"></video>
+<video src="https://github.com/user-attachments/assets/bbeff7ee-214b-4caf-8cc0-232dcb1cc05d" autoplay muted loop playsinline width="800"></video>
 
 ## Screenshots
 
