@@ -8,11 +8,26 @@ https://chatty-832r.onrender.com
 
 ## Demo
 
-(Add your video here – chatting demo recommended)
+<video src="demo/demoVideo.mp4" autoplay muted loop playsinline width="800"></video>
 
 ## Screenshots
 
-(Add login, signup, and chat UI screenshots here)
+### Login
+<img src="demo/loginPage.png" alt="login page"></img>
+
+### Sign Up
+<img src="demo/signupPage.png" alt="signup page"></img>
+
+### Chat Page
+<img src="demo/chatPage.png" alt="chat page"></img>
+
+### Contacts Page
+<img src="demo/contactPage.png" alt="contact page"></img>
+
+### Real Chats
+<img src="demo/chatsPage.png" alt="real chats page"></img>
+
+
 
 ## Features
 
